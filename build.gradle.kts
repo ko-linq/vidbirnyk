@@ -5,7 +5,7 @@ plugins {
     `maven-publish`
 }
 
-group = "io.github.kotlinq"
+group = "io.github.kotlinqs"
 version = "0.1-SNAPSHOT"
 
 repositories {
@@ -27,7 +27,7 @@ tasks.withType<KotlinCompile> {
 publishing {
     publications {
         create("maven_public", MavenPublication::class) {
-            groupId = "io.github.kotlinq"
+            groupId = "io.github.kotlinqs"
             artifactId = "vidbirnyk"
             version = "0.1-SNAPSHOT"
 
